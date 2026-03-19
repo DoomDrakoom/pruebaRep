@@ -38,6 +38,7 @@ public class Date {
   public int getMonth() {
     return month;
   }
+  
 
   /**
    * Retrieves the year component of this date.
@@ -48,6 +49,9 @@ public class Date {
     return year;
   }
 
+  public void methodAddedByOwner(){
+    System.out.println("Metodo añadido por el propietario (Juanma)");
+  }
   /**
    * Constructs a Date object representing a specific day, month, and year.
    *
